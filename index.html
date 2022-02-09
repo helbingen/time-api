@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <label for="timezones">
+        <h3>Choose a timezone: </h3>
+    </label>
+    <select id="timezone" onclick="option()">
+        <option value="" id="optionDefault"> </option>
+        <option value="est" id="estOption">Eastern Standard Time</option>
+        <option value="utc" id="utcOption">Coordinated Universal Time</option>
+        <!-- I decided to remove the CET timezone option, because the function is not working on the script.js -->
+        <!-- <option value="cet" id="cetOption">Central European Standard Time</option> -->
+    </select>
+
+    <script src="./script.js"></script>
+</body>
+<div class="container">
+    <div id="est"></div>
+    <div id="info">
+        <hr><br><br>
+        <p>Name: Daniel Helbingen</p>
+        <p>Nationality: Brazilian</p>
+        <p>Biggest Dream: To became a developer, travel abroad the world, know different countries and cultures! </p>
+    </div>
+</div>
+
+</html>

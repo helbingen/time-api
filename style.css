@@ -1,0 +1,22 @@
+.container{
+    max-width: 80%;
+}
+#timezone{
+    padding: 10px;
+    margin-bottom: 100px;
+}
+select #optionDefault{
+    visibility: hidden;
+}
+
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 0;
+}
+
+#est{
+    padding-bottom: 30px;
+}
