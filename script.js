@@ -1,6 +1,6 @@
-const urlEst = "http://worldclockapi.com/api/json/est/now";
-const urlUtc = "http://worldclockapi.com/api/json/utc/now";
-const urlCet = "http://worldclockapi.com/api/jsonp/cet/now?callback=mycallback";
+const urlEst = "https://worldclockapi.com/api/json/est/now";
+const urlUtc = "https://worldclockapi.com/api/json/utc/now";
+const urlCet = "https://worldclockapi.com/api/jsonp/cet/now?callback=mycallback";
 
 function est() {
     fetch(urlEst)
